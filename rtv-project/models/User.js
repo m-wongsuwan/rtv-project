@@ -18,6 +18,12 @@ const userSchema = new Schema({
     isAdmin: {
         type: Boolean,
         default: false
+    },
+    likedPosts: {
+        type: Array
+    },
+    dislikedPosts: {
+        type: Array
     }
 })
 
